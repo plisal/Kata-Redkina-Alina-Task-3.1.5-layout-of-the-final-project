@@ -36,14 +36,14 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          MiniCssExtractPlugin.loader, // Extract css to separate file
+          MiniCssExtractPlugin.loader, // Extract scss to separate file
           'css-loader', // translates CSS into CommonJS
           'postcss-loader', // parse CSS and add vendor prefixes to CSS rules
           'sass-loader', // compiles Sass to CSS, using Node Sass by default
         ],
       },
 
-      // Подключаем шрифты из css
+      // Подключаем шрифты из scss
       {
         test: /\.(eot|ttf|woff|woff2)$/,
         use: [
@@ -53,7 +53,7 @@ module.exports = {
         ]
       },
 
-      // Подключаем картинки из css
+      // Подключаем картинки из scss
       {
         test: /\.(svg|png|jpg|jpeg|webp)$/,
         use: [
