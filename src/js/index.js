@@ -1,4 +1,6 @@
 import '../scss/index.scss'
+import Swiper from 'swiper'
+import 'swiper/swiper-bundle.css' // если нужны стили
 
 let buttonManagement = document.querySelector('.services__button-management')
 let buttonManagementText = document.querySelector(

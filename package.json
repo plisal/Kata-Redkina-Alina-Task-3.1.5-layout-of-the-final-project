@@ -13,7 +13,7 @@
   "author": "Kata Academy",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "rm -rf dist && webpack --mode production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "webpack --mode development",
@@ -57,5 +57,8 @@
     "plugins": {
       "autoprefixer": {}
     }
+  },
+  "dependencies": {
+    "swiper": "^11.2.8"
   }
 }
