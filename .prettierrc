@@ -8,6 +8,6 @@
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
   "proseWrap": "never",
-  "htmlWhitespaceSensitivity": "strict",
+  "htmlWhitespaceSensitivity": "ignore",
   "endOfLine": "lf"
 }
