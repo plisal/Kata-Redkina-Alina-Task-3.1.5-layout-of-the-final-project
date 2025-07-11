@@ -6,6 +6,12 @@
   --pad-left-1120: 32px;
   --pad-right-1120: 32px;
 
+  --mar-left-320: 16px;
+  --mar-right-320: 16px;
+  --mar-left-768: 24px;
+  --mar-right-768: 24px;
+  --mar-left-1120: 32px;
+  --mar-right-1120: 32px;
 }
 
 body {
@@ -323,6 +329,28 @@ button {
   border-radius: 16px;
 }
 
+.services-offer__text {
+  margin-bottom: 16px;
+  width: 421px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(126, 126, 130, 1);
+}
+
+.footer__item {
+  margin: 0;
+}
+
+.footer__info {
+  text-align: right;
+}
+
+.services-offer__button-icon  {
+  margin-left: 8px;
+}
 //  display: flex;
 //  justify-content: flex-end;
 //background-color: rgba(255, 62, 121, 1);

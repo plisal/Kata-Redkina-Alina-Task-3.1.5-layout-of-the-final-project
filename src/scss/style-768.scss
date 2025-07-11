@@ -75,5 +75,29 @@
   .services__button-types-equipment {
     width: 224px;
   }
+
+  .services__table {
+    margin: 24px 24px 0 var(--mar-left-768);
+  }
+
+  .services-offer {
+    margin: 24px 24px 0 var(--mar-left-768);
+  }
+
+  .services-offer__text {
+    margin-top: 24px;
+  }
+
+  .footer {
+    margin: 80px var(--mar-right-768) 21px var(--mar-left-768);
+  }
+
+  .footer__publisher {
+    width: 218px;
+  }
+
+  .footer__info {
+    width: 213px;
+  }
 }
 

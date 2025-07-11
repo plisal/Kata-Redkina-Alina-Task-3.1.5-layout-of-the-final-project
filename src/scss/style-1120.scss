@@ -76,7 +76,7 @@
   }
 
   .services__container {
-    margin: 24px 24px 48px var(--pad-left-1120);
+    margin: 24px 24px 48px var(--mar-left-1120);
     column-gap: 32px;
   }
 
@@ -89,6 +89,22 @@
   }
 
   .services__table {
-    margin: 24px 24px 48px var(--pad-left-1120);
+    margin: 24px 24px 0 var(--mar-left-1120);
+  }
+
+  .services-offer {
+    margin: 24px 24px 0 var(--mar-left-1120);
+  }
+
+  .services-offer__text {
+    margin-top: 32px;
+  }
+
+  .footer {
+    margin: 83px var(--mar-right-1120) 21px var(--mar-left-1120);
+  }
+
+  .footer__info {
+    width: 330px;
   }
 }

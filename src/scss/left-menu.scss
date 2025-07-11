@@ -1,16 +1,16 @@
 .left-float-menu {
-  display: flex;
+  //display: flex;
+  display: none;
   flex-direction: column;
   height: 100vh;
   box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2);
   width: 320px;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
-  /* z-index: 1; */
-  background-color: azure;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 1;
 }
-
 
 .left-float-menu__header {
   display: flex;
