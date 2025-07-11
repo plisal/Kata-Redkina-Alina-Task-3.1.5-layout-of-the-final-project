@@ -70,7 +70,7 @@ handleToggleButtons()
 window.addEventListener('resize', handleToggleButtons)
 buttonManagement.addEventListener('click', handleButtonManagementClick)
 
-new Swiper('.mySwiper', {
+new Swiper('.swiper', {
   modules: [Pagination],
   breakpoints: {
     // when window width is >= 320px
