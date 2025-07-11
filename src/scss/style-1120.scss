@@ -32,7 +32,7 @@
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color:  rgba(255, 62, 121, 1);
+    background-color: rgba(255, 62, 121, 1);
   }
 
   .main-part__text {
@@ -75,16 +75,20 @@
     margin-top: -16px;
   }
 
-  .services__container{
-    margin: 24px 24px 48px 24px;
-    column-gap: 24px;
+  .services__container {
+    margin: 24px 24px 48px var(--pad-left-1120);
+    column-gap: 32px;
   }
 
   .services__header {
-    padding-left: var(--pad-left-768);
+    padding-left: var(--pad-left-1120);
   }
 
   .mySwiper {
     display: none;
+  }
+
+  .services__table {
+    margin: 24px 24px 48px var(--pad-left-1120);
   }
 }

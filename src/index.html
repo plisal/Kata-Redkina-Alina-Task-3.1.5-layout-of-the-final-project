@@ -215,7 +215,7 @@
 
             <button class="main-part__container--screen1120">
               <span class="main-part__text">Статус ремонта</span>
-              <div class="main-part__button">
+              <span class="main-part__button">
                 <svg
                   width="16"
                   height="20"
@@ -230,7 +230,7 @@
                     fill="white"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
           </div>
         </div>
@@ -304,13 +304,14 @@
           </div>
         </section>
       </main>
+
       <section class="services">
         <h2 class="services__header">Ремонт техники различных брендов</h2>
         <div class="services__container-wrapper">
           <div class="services__container">
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/lenovo.png" alt="lenovo" style="width: 108px" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -325,11 +326,11 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/samsung.png" alt="samsung" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -344,11 +345,11 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/apple.png" alt="apple" style="width: 44px" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -363,11 +364,11 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/viewSonic.png" alt="viewSonic" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -382,11 +383,11 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/bosch.png" alt="bosch" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -401,11 +402,11 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/hp.png" alt="hp" style="width: 52px" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -420,11 +421,11 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/acer.png" alt="acer" style="width: 94px" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -439,11 +440,11 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/sony.png" alt="sony" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -458,11 +459,11 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/lenovo.png" alt="lenovo" style="width: 108px" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -477,11 +478,11 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/samsung.png" alt="samsung" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -496,11 +497,11 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
-            <button class="services__button">
+            <button class="menu__button services__button-brands">
               <img src="./img/apple.png" alt="apple" />
-              <div class="services__button-icon">
+              <span class="services__button-icon">
                 <svg
                   width="8"
                   height="12"
@@ -515,7 +516,7 @@
                     fill="#FF3E79"
                   />
                 </svg>
-              </div>
+              </span>
             </button>
           </div>
           <button class="services__button-management">
@@ -533,722 +534,493 @@
                 fill="#41F6D7"
               />
             </svg>
-            <div class="services__button-management-text">Скрыть</div>
+            <span class="services__button-management-text">Скрыть</span>
           </button>
         </div>
       </section>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/lenovo.png" alt="lenovo" style="width: 108px" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/samsung.png" alt="samsung" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/apple.png" alt="apple" style="width: 44px" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/viewSonic.png" alt="viewSonic" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/bosch.png" alt="bosch" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/hp.png" alt="hp" style="width: 52px" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/acer.png" alt="acer" style="width: 94px" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/sony.png" alt="sony" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/lenovo.png" alt="lenovo" style="width: 108px" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/samsung.png" alt="samsung" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="services__button-brands">
+              <img src="./img/apple.png" alt="apple" style="width: 44px" />
+              <span class="services__button-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="menu__gradient"></div>
+      </div>
+
+      <section class="services">
+        <h2 class="services__header">Ремонт различных видов техники</h2>
+        <div class="services__container-wrapper">
+          <div class="services__container">
+            <button class="services__button-types-equipment">
+              <span class="services__button-types-equipment-text">
+                Ремонт ноутбуков
+              </span>
+              <span class="services__button-types-equipment-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+            <button class="services__button-types-equipment">
+              <span class="services__button-types-equipment-text">
+                Ремонт планшетов
+              </span>
+              <span class="services__button-types-equipment-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+            <button class="services__button-types-equipment">
+              <span class="services__button-types-equipment-text">
+                Ремонт ПК
+              </span>
+              <span class="services__button-types-equipment-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+            <button class="services__button-types-equipment">
+              <span class="services__button-types-equipment-text">
+                Ремонт мониторов
+              </span>
+              <span class="services__button-types-equipment-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+            <button class="services__button-types-equipment">
+              <span class="services__button-types-equipment-text">
+                Ремонт Iphone
+              </span>
+              <span class="services__button-types-equipment-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+            <button class="services__button-types-equipment">
+              <span class="services__button-types-equipment-text">
+                Ремонт Ipad
+              </span>
+              <span class="services__button-types-equipment-icon">
+                <svg
+                  width="8"
+                  height="12"
+                  viewBox="0 0 8 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
+                    fill="#FF3E79"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <button class="services__button-management">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9.49992 16.4999L11.9999 13.9999L14.4999 16.4999C14.7761 16.7761 15.2238 16.7761 15.4999 16.4999C15.7761 16.2238 15.7761 15.7761 15.4999 15.4999L12.707 12.707C12.3165 12.3165 11.6833 12.3165 11.2928 12.707L8.49992 15.4999C8.22378 15.7761 8.22378 16.2238 8.49992 16.4999C8.77607 16.7761 9.22378 16.7761 9.49992 16.4999ZM9.49992 10.4999L11.9999 7.99992L14.4999 10.4999C14.7761 10.7761 15.2238 10.7761 15.4999 10.4999C15.7761 10.2238 15.7761 9.77607 15.4999 9.49992L12.707 6.70703C12.3165 6.31651 11.6833 6.31651 11.2928 6.70703L8.49992 9.49993C8.22378 9.77607 8.22378 10.2238 8.49992 10.4999C8.77607 10.7761 9.22378 10.7761 9.49992 10.4999Z"
+                fill="#41F6D7"
+              />
+            </svg>
+            <span class="services__button-management-text">Скрыть</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="services">
+        <h2 class="services__header">Цены на услуги</h2>
+
+        <div class="services__table">
+          <div class="services__table-header">
+            <div class="services__table-cell--title">Ремонтные услуги</div>
+            <div class="services__table-cell--price">Цена</div>
+            <div class="services__table-cell--time">Срок</div>
+            <div class="services__table-cell--button"></div>
+          </div>
+          <div class="services__table-row-wrapper">
+            <div class="services__table-row">
+              <div class="services__table-cell--title">Диагностика</div>
+              <div class="services__table-cell--price">Бесплатно</div>
+              <div class="services__table-cell--time">30 мин</div>
+              <div class="services__table-cell--button">
+                <button class="services__table-cell-button">Заказать</button>
+              </div>
+            </div>
+
+            <div class="services__table-row">
+              <div class="services__table-cell services__table-cell--title">
+                Замена дисплея
+              </div>
+              <div class="services__table-cell--price">1 000 ₽</div>
+              <div class="services__table-cell--time">30–120 мин</div>
+              <div class="services__table-cell--button">
+                <button class="services__table-cell-button">Заказать</button>
+              </div>
+            </div>
+
+            <div class="services__table-row">
+              <div class="services__table-cell services__table-cell--title">
+                Замена полифонического динамика
+              </div>
+              <div class="services__table-cell--price">1 000 ₽</div>
+              <div class="services__table-cell--time">30–120 мин</div>
+              <div class="services__table-cell--button">
+                <button class="services__table-cell-button">Заказать</button>
+              </div>
+            </div>
+
+            <div class="services__table-row">
+              <div class="services__table-cell services__table-cell--title">
+                Тестирование с выдачей технического заключения
+              </div>
+              <div class="services__table-cell--price">1 000 ₽</div>
+              <div class="services__table-cell--time">30–120 мин</div>
+              <div class="services__table-cell--button">
+                <button class="services__table-cell-button">Заказать</button>
+              </div>
+            </div>
+
+            <div class="services__table-row">
+              <div class="services__table-cell services__table-cell--title">
+                Замена программного обеспечения
+              </div>
+              <div class="services__table-cell--price">1 000 ₽</div>
+              <div class="services__table-cell--time">30–120 мин</div>
+              <div class="services__table-cell--button">
+                <button class="services__table-cell-button">
+                  Заказать
+                  <svg
+                    width="7"
+                    height="10"
+                    viewBox="0 0 7 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M3.8 4.99994L0.791554 2.229C0.3641 1.83529 0.361125 1.16138 0.785088 0.763917L0.920293 0.637162C1.30321 0.278177 1.89851 0.276333 2.28364 0.632939L6.93812 4.94264C6.9715 4.97355 6.9715 5.02633 6.93812 5.05723L2.34674 9.30851C1.92606 9.69803 1.27582 9.69601 0.857554 9.30389C0.394457 8.86974 0.397706 8.13363 0.864616 7.70358L3.8 4.99994Z"
+                      fill="white"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <p>
+          Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную
+          услугу. Для получения коммерческого предложения на постоянное
+          обслуживание, оставьте заявку.
+        </p>
+      </section>
     </div>
     <!--  <div class="swiper__container">-->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/lenovo.png" alt="lenovo" style="width: 108px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/samsung.png" alt="samsung" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/apple.png" alt="apple" style="width: 44px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/viewSonic.png" alt="viewSonic" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/bosch.png" alt="bosch" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/hp.png" alt="hp" style="width: 52px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/acer.png" alt="acer" style="width: 94px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/sony.png" alt="sony" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/lenovo.png" alt="lenovo" style="width: 108px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/samsung.png" alt="samsung" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/apple.png" alt="apple" style="width: 44px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="menu__gradient"></div>
-    </div>
 
-    <section class="services">
-      <h2 class="services__header">Ремонт техники различных брендов</h2>
-      <div class="services__container-wrapper">
-        <div class="services__container">
-          <button class="services__button">
-            <img src="./img/lenovo.png" alt="lenovo" style="width: 108px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-          <button class="services__button">
-            <img src="./img/samsung.png" alt="samsung" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-          <button class="services__button">
-            <img src="./img/apple.png" alt="apple" style="width: 44px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-          <button class="services__button">
-            <img src="./img/viewSonic.png" alt="viewSonic" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-          <button class="services__button">
-            <img src="./img/bosch.png" alt="bosch" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-          <button class="services__button">
-            <img src="./img/hp.png" alt="hp" style="width: 52px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-          <button class="services__button">
-            <img src="./img/acer.png" alt="acer" style="width: 94px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-          <button class="services__button">
-            <img src="./img/sony.png" alt="sony" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-          <button class="services__button">
-            <img src="./img/lenovo.png" alt="lenovo" style="width: 108px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-          <button class="services__button">
-            <img src="./img/samsung.png" alt="samsung" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-          <button class="services__button">
-            <img src="./img/apple.png" alt="apple" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <button class="services__button-management">
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M9.49992 16.4999L11.9999 13.9999L14.4999 16.4999C14.7761 16.7761 15.2238 16.7761 15.4999 16.4999C15.7761 16.2238 15.7761 15.7761 15.4999 15.4999L12.707 12.707C12.3165 12.3165 11.6833 12.3165 11.2928 12.707L8.49992 15.4999C8.22378 15.7761 8.22378 16.2238 8.49992 16.4999C8.77607 16.7761 9.22378 16.7761 9.49992 16.4999ZM9.49992 10.4999L11.9999 7.99992L14.4999 10.4999C14.7761 10.7761 15.2238 10.7761 15.4999 10.4999C15.7761 10.2238 15.7761 9.77607 15.4999 9.49992L12.707 6.70703C12.3165 6.31651 11.6833 6.31651 11.2928 6.70703L8.49992 9.49993C8.22378 9.77607 8.22378 10.2238 8.49992 10.4999C8.77607 10.7761 9.22378 10.7761 9.49992 10.4999Z"
-              fill="#41F6D7"
-            />
-          </svg>
-          <div class="services__button-management-text">Скрыть</div>
-        </button>
-      </div>
-    </section>
-
-    <!--  <div class="swiper__container">-->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/lenovo.png" alt="lenovo" style="width: 108px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/samsung.png" alt="samsung" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/apple.png" alt="apple" style="width: 44px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/viewSonic.png" alt="viewSonic" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/bosch.png" alt="bosch" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/hp.png" alt="hp" style="width: 52px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/acer.png" alt="acer" style="width: 94px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/sony.png" alt="sony" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/lenovo.png" alt="lenovo" style="width: 108px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/samsung.png" alt="samsung" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-        <div class="swiper-slide">
-          <button class="services__button">
-            <img src="./img/apple.png" alt="apple" style="width: 44px" />
-            <div class="services__button-icon">
-              <svg
-                width="8"
-                height="12"
-                viewBox="0 0 8 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M4.5 6L0.707106 2.20711C0.316582 1.81658 0.316582 1.18342 0.707107 0.792893L0.792893 0.707107C1.18342 0.316583 1.81658 0.316583 2.20711 0.707107L6.79289 5.29289C7.18342 5.68342 7.18342 6.31658 6.79289 6.70711L2.20711 11.2929C1.81658 11.6834 1.18342 11.6834 0.792893 11.2929L0.707107 11.2071C0.316583 10.8166 0.316583 10.1834 0.707107 9.79289L4.5 6Z"
-                  fill="#FF3E79"
-                />
-              </svg>
-            </div>
-          </button>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="menu__gradient"></div>
-    </div>
     <!--    <script src="js/index.js"></script>-->
   </body>
 </html>

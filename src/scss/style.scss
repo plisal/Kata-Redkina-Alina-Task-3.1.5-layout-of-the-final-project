@@ -5,6 +5,7 @@
   --pad-right-768: 24px;
   --pad-left-1120: 32px;
   --pad-right-1120: 32px;
+
 }
 
 body {
@@ -12,6 +13,10 @@ body {
   font-size: 14px;
   margin: 0;
   background-color: rgba(248, 248, 248, 1);
+
+
+  //font-size: 16px;
+  //height: 100%;
 }
 
 h1 {
@@ -31,7 +36,7 @@ button {
   appearance: none;
   border: none;
   background-color: transparent;
-  line-height: 0;
+  //line-height: 0;
   padding: 0;
   cursor: pointer;
 }
@@ -50,10 +55,10 @@ button {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color:  rgba(255, 62, 121, 1);
+  background-color: rgba(255, 62, 121, 1);
 }
 
-.header__middle{
+.header__middle {
   display: none;
   flex-grow: 1;
 }
@@ -64,6 +69,7 @@ button {
   border-left: 1px solid #EAEAEA;
   border-radius: 1px;
 }
+
 .header__line--screen320,
 .header__screen768,
 .header__line--screen768 {
@@ -99,6 +105,7 @@ button {
 .menu-wrapper {
   position: relative;
 }
+
 .menu__gradient {
   width: 24px;
   background: linear-gradient(to right, rgba(248, 248, 248, 0), rgba(248, 248, 248, 1), rgba(248, 248, 248, 1));
@@ -135,7 +142,7 @@ button {
   gap: 16px;
 }
 
-.section__button{
+.section__button {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -150,10 +157,9 @@ button {
   letter-spacing: 0.2px;
 }
 
-.services__container{
+.services__container {
   display: flex;
   flex-wrap: wrap;
-  /*margin: 24px 32px 48px 0;*/
   column-gap: 32px;
   row-gap: 16px;
 }
@@ -168,10 +174,10 @@ button {
   font-size: 16px;
   color: rgba(126, 126, 130, 1);
   background-color: rgb(252, 252, 252);
-  background-image: linear-gradient( to right, rgba(248, 248, 248, 1), rgba(255, 255, 255, 1));
+  background-image: linear-gradient(to right, rgba(248, 248, 248, 1), rgba(255, 255, 255, 1));
 }
 
-.services__button {
+.services__button-brands {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -183,14 +189,14 @@ button {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.services__button:hover {
-  background: rgba(255, 255, 255, 1);
-  border-radius: 6px;
-  border: 2px solid #B8FFEC;
-}
+//.services__button-brands:hover {
+//  background: rgba(255, 255, 255, 1);
+//  border-radius: 6px;
+//  border: 2px solid #B8FFEC;
+//}
 
 .services__button-icon {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   border: 2px solid rgba(255, 62, 121, 1);
@@ -210,3 +216,115 @@ button {
 .services__button--hidden {
   display: none;
 }
+
+.services__button-types-equipment {
+  position: relative;
+  padding: 0 16px;
+  width: 240px;
+  height: 160px;
+  border-radius: 6px;
+  border: 1px solid rgba(234, 234, 234, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.services__button-types-equipment:hover {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  border: 2px solid #B8FFEC;
+}
+
+.services__button-types-equipment-text {
+  position: absolute;
+  top: 24px;
+  left: 16px;
+}
+
+.services__button-types-equipment-icon {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 62, 121, 1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.services__table-row-wrapper {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 6px;
+}
+
+
+.services__table-row {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #eee;
+  margin: 0 24px;
+  padding: 24px 0;
+
+  &:first-child {
+    border-top: none;
+  }
+}
+
+.services__table-row-wrapper {
+  border-top: none; /* чтобы последняя строка была без линии */
+}
+
+.services__table-header {
+  display: flex;
+  align-items: center;
+  //border-top: 1px solid #eee;
+  margin: 0 24px;
+  padding: 16px 0;
+  color: rgba(126, 126, 130, 1);
+  border: none;
+}
+
+
+//.services__table-cell {
+//  flex: 1;
+//  padding: 4px 8px;
+//}
+
+.services__table-cell--title {
+  flex: 3;
+}
+
+.services__table-cell--price {
+  flex: 1;
+}
+
+.services__table-cell--time {
+  flex: 1;
+}
+
+//.services__table-cell {
+//  flex: 1;
+//}
+
+.services__table-cell--button {
+  flex: 0 0 120px;
+}
+
+.services__table-cell-button {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.15px;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 119px;
+  height: 32px;
+  background-color: rgba(255, 62, 121, 1);
+  border-radius: 16px;
+}
+
+//  display: flex;
+//  justify-content: flex-end;
+//background-color: rgba(255, 62, 121, 1);
+//border-radius: 16px;
+//}

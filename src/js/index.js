@@ -1,6 +1,6 @@
-import '../scss/index.scss'
 import Swiper from 'swiper'
 import 'swiper/swiper-bundle.css' // если нужны стили
+import '../scss/index.scss'
 
 let buttonManagement = document.querySelector('.services__button-management')
 let buttonManagementText = document.querySelector(
@@ -8,7 +8,9 @@ let buttonManagementText = document.querySelector(
 )
 let buttonManagementIcon = buttonManagement.querySelector('svg')
 let servicesContainer = document.querySelector('.services__container')
-let servicesButtons = servicesContainer.querySelectorAll('.services__button')
+let servicesButtons = servicesContainer.querySelectorAll(
+  '.services__button-brands'
+)
 
 let visibleButtonsCount = 8
 

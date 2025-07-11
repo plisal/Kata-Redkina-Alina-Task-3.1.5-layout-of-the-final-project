@@ -55,7 +55,7 @@
 
   }
 
-  .services__container{
+  .services__container {
     margin: 24px 24px 48px 24px;
     column-gap: 24px;
   }
@@ -63,12 +63,17 @@
   .services__header {
     padding-left: var(--pad-left-768);
   }
-  .services__button {
+
+  .services__button-brands {
     width: 224px;
   }
 
   .mySwiper {
     display: none;
+  }
+
+  .services__button-types-equipment {
+    width: 224px;
   }
 }
 
