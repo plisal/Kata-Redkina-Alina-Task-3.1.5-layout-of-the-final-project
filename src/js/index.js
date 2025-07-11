@@ -1,7 +1,7 @@
 import Swiper from 'swiper'
 import 'swiper/swiper-bundle.css' // если нужны стили
 import '../scss/index.scss'
-
+import { Pagination } from 'swiper/modules'
 let buttonManagement = document.querySelector('.services__button-management')
 let buttonManagementText = document.querySelector(
   '.services__button-management-text'
@@ -71,6 +71,7 @@ window.addEventListener('resize', handleToggleButtons)
 buttonManagement.addEventListener('click', handleButtonManagementClick)
 
 new Swiper('.mySwiper', {
+  modules: [Pagination],
   breakpoints: {
     // when window width is >= 320px
     320: {
