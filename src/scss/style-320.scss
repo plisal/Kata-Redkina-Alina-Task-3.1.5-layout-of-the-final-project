@@ -70,5 +70,67 @@
     margin-left: 16px;
   }
 
+  .services__table {
+    display: none;
+  }
 
+  .services__prices-for-services {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    font-size: 14px;
+    width: 240px;
+    height: 200px;
+    //height: 200px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    padding: 16px;
+    box-sizing: border-box;
+
+    & span {
+      text-align: left;
+    }
+
+    & .services__button-prices-for-services-item {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .services__button-prices-for-services {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+  }
+
+  .swiper-prices-for-services{
+    height: 240px;
+  }
+  .services__button-prices-for-services-title {
+    color: rgba(126, 126, 130, 1)
+  }
+
+  .services-offer {
+    width: 288px;
+    margin: 0 16px;
+  }
+
+  .services-offer__text {
+    width: 288px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    margin-top: 56px;
+    margin-bottom: 19px;
+  }
+
+  .footer__info {
+    text-align: center;
+  }
 }

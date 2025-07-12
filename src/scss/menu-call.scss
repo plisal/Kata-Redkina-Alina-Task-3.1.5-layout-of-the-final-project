@@ -1,0 +1,117 @@
+
+//.test {
+//  position: fixed;
+//  top: 0;
+//  left: 0;
+//  width: 100%;
+//  height: 100%;
+//  //background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
+//  //display: none; /* Изначально скрыто */
+//  z-index: 100;
+//}
+
+
+.body-wrapper {
+  //background-color: rgba(0, 0, 0, 0.05);
+  //filter: blur(15px); /* Полупрозрачный фон */
+}
+
+.menu-call {
+  //display: flex;
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  box-shadow: -16px 0 52px 0 rgba(14, 24, 80, 0.2);
+  width: 440px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 10;
+}
+
+.menu-call-wrapper {
+  margin-top: 40px;
+  margin-left: 32px;
+  margin-right: 32px;
+  //margin-bottom: 24px;
+}
+
+.menu-call-container {
+  margin-bottom: 24px;
+}
+
+.menu-call__border {
+  height: 40px;
+  width: 4px;
+  border-right: 4px solid #41F6D7;
+  border-radius: 4px;
+  margin-left: -4px;
+  position: absolute;
+  left: 0;
+}
+
+.menu-call__close-button {
+  position: absolute;
+  left: -72px;
+  top: 40px;
+  cursor: pointer;
+}
+
+.menu-call-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.menu-call__input {
+  width: 376px;
+  height: 48px;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 8px;
+  font-family: 'TT Lakes', sans-serif;
+  font-size: 16px;
+  padding-left: 16px;
+  box-sizing: border-box;
+}
+
+.menu-call__link {
+  color: rgba(255, 62, 121, 1);
+}
+
+.menu-call__button {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .menu-call {
+
+    height: 100vh;
+    width: 320px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 1;
+  }
+
+  .menu-call__close-button {
+    left: 16px;
+    top: 24px;
+  }
+
+  .menu-call-wrapper {
+    margin-top: 104px;
+    margin-left: 16px;
+    margin-right: 16px;
+    //margin-bottom: 24px;
+  }
+
+  .menu-call__input {
+    width: 288px;
+  }
+
+  .menu-call__consent {
+    padding-right: 10px;
+  }
+}
