@@ -1,6 +1,7 @@
 import Swiper from 'swiper'
 import 'swiper/swiper-bundle.css' // если нужны стили
 import '../scss/index.scss'
+import './left-float-menu'
 import { Pagination } from 'swiper/modules'
 let buttonManagement = document.querySelector('.services__button-management')
 let buttonManagementText = document.querySelector(
@@ -24,7 +25,6 @@ const updateVisibleButtonsCount = () => {
   if (window.innerWidth >= 768) {
     visibleButtonsCount = 6
     console.log(visibleButtonsCount)
-
     return
   }
   visibleButtonsCount = 1

@@ -10,6 +10,10 @@
   top: 0;
   background-color: rgba(255, 255, 255, 1);
   z-index: 1;
+
+  &--open {
+    display: flex;
+  }
 }
 
 .left-float-menu__header {
@@ -145,3 +149,13 @@ a:visited {
   text-decoration: none;
 }
 
+@media screen and (min-width: 1120px)  {
+  .left-float-menu {
+    display: flex;
+    position: relative;
+  }
+
+  #closeButton {
+    visibility: hidden;
+  }
+}
