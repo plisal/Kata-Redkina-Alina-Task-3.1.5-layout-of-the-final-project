@@ -1,6 +1,7 @@
 {
   "name": "web-last-block",
   "version": "1.0.0",
+  "homepage": "https://plisal.github.io/Kata-Redkina-Alina-Task-3.1.5-layout-of-the-final-project/",
   "description": "",
   "keywords": [
     "web",
@@ -13,6 +14,7 @@
   "author": "Kata Academy",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "npm run deploy": "rm -rf dist && webpack --mode production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
